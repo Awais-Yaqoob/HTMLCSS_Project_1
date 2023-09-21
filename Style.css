@@ -1,0 +1,55 @@
+*{
+    font-family:'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 5px;
+    overflow: hidden;
+    background-color: #be3144;
+
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px 22px;
+    font-size: 22px;
+    text-decoration: none;
+    font-family:'Poppins';
+    font-weight:500;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #45567d;
+  }
+  .hero{
+    padding: 300px;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    
+   
+  }
+  .hero h1{
+    color: #f0f0f0;
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .hero p{
+    text-align: center;
+    color: #be3144;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
