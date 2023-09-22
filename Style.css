@@ -1,10 +1,14 @@
 *{
     font-family:'Poppins', sans-serif;
     margin: 0px;
+   
+}
+body{
+  background-color: #be3144;
 }
 
 
-ul {
+.ul-navbar {
     list-style-type: none;
     margin: 0;
     padding: 0px 5px;
@@ -13,11 +17,11 @@ ul {
 
   }
   
-  li {
+  .li-navbar {
     float: right;
   }
   
-  li a {
+  .li-navbar a {
     display: block;
     color: #f0f0f0;
     text-align: center;
@@ -29,7 +33,7 @@ ul {
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+  .li-navbar a:hover {
     background-color: #45567d;
   }
   .hero{
@@ -52,4 +56,123 @@ ul {
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     
+  }
+ 
+  .cardSection{
+    padding: 80px ;
+    background-color: #45567d;
+    
+  }
+  .cardSection h1{
+    margin-bottom: 0px;
+    color: #f0f0f0;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 40px;
+  }
+  hr{
+    width: 45%;
+    margin-bottom: 50px;
+  }
+  .grid-container{  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 10px;
+    margin: 50px 50px;
+    /* grid-template-rows: 1fr 1fr; */
+    /* gap: 50px 100px;    */
+   
+  }
+ .item h3{
+  
+  font-family: 'Poppins';
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  color: #f0f0f0;
+  font-weight: 400;
+  cursor: pointer;
+  
+ }
+ .item{
+ width: 400px;
+ background-color: #303841;
+ margin: 20px 20px 20px 20px;
+
+ }
+  
+  .item img{
+    height: 380px;
+    width: 400px;  
+    object-fit: cover;
+  }
+
+  .btn{
+    text-align: center;
+  }
+  .btn button{
+    font-family: 'Poppins';
+    font-size: 20px;
+    background-color: #303841;
+    color: #f0f0f0;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-width: 0;
+    
+    
+    
+  }
+  .btn button:hover{
+    background-color: #be3144;
+    color: #f0f0f0;
+  }
+  .bottom-cont{
+    padding: 200px 200px;
+    background-color: #303841;
+    text-align: center;
+  }
+  .bottom-cont h1{
+    color: #f0f0f0;
+    font-size: 60px;
+    font-family:'Raleway', sans-serif;
+  }
+  .bottom-cont p{
+    color: #f0f0f0;
+    font-family:'Times New Roman';
+    font-size: 18px;
+    font-weight: lighter;
+
+  }
+  .bottom-cont ul {
+    list-style-type: none;
+   
+    padding: 0px 5px;
+    overflow: hidden;
+    color: #f0f0f0;
+    margin-top: 30px;
+   
+
+  }
+  
+  .bottom-cont li {
+    
+    padding: 0 15px;
+    display: inline;
+    font-family: 'Poppins';
+    font-size: 25px;
+    cursor: pointer;
+    
+  }
+  .bottom-bar{
+    background-color: #303841;
+    margin-top: 5px;
+    padding: 25px 0px;
+    text-align: center;
+  }
+  .bottom-bar h3{
+    font-weight: 400;
+    color: #f0f0f0;
+    display: inline;
+    
+    padding: 0px 50px;
   }
