@@ -58,74 +58,48 @@ body{
     
   }
  
-  .cardSection{
-    padding: 80px ;
-    background-color: #45567d;
-    
-  }
-  .cardSection h1{
-    margin-bottom: 0px;
-    color: #f0f0f0;
-    text-align: center;
-    font-family: 'Poppins';
-    font-size: 40px;
-  }
-  hr{
-    width: 45%;
-    margin-bottom: 50px;
-  }
-  .grid-container{  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 10px 10px;
-    margin: 50px 50px;
-    /* grid-template-rows: 1fr 1fr; */
-    /* gap: 50px 100px;    */
-   
-  }
- .item h3{
   
-  font-family: 'Poppins';
-  font-size: 20px;
+/* carouser */
+.carousel {
+  position: relative;
+  max-width: auto;
+  margin: 0 auto;
   text-align: center;
-  padding: 15px;
-  color: #f0f0f0;
-  font-weight: 400;
-  cursor: pointer;
-  
- }
- .item{
- width: 400px;
- background-color: #303841;
- margin: 20px 20px 20px 20px;
+  padding: 50px 0px;
+}
 
- }
-  
-  .item img{
-    height: 380px;
-    width: 400px;  
-    object-fit: cover;
-  }
+.slide-container {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
 
-  .btn{
-    text-align: center;
-  }
-  .btn button{
-    font-family: 'Poppins';
-    font-size: 20px;
-    background-color: #303841;
-    color: #f0f0f0;
-    cursor: pointer;
-    padding: 8px 20px;
-    border-width: 0;
-    
-    
-    
-  }
-  .btn button:hover{
-    background-color: #be3144;
-    color: #f0f0f0;
-  }
+.slide {
+  flex: 0 0 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slide img {
+  width: 800px;
+  height: 500px;
+
+}
+
+.carousel button {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+
+
+
+
   .bottom-cont{
     padding: 200px 200px;
     background-color: #303841;
