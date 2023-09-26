@@ -90,13 +90,39 @@ body{
 
 }
 
-.carousel button {
-  margin-top: 10px;
-  font-size: 16px;
-  padding: 10px 20px;
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
+.left {
+  left: 0;
+}
 
+.right {
+  right: 0;
+}
+
+.arrow::before {
+  content: '\2190'; /* Unicode arrow left character */
+  font-size: 30px;
+  color: white;
+}
+
+.arrow.right::before {
+  content: '\2192'; /* Unicode arrow right character */
+}
+
+.title{
+  color: #f0f0f0;
+    font-size: 60px;
+    font-family:'Raleway', sans-serif;
+}
 
 
 

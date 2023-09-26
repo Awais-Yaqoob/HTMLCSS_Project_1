@@ -24,16 +24,33 @@
     
 <!-- carouser code -->
 <div class="carousel">
-    <div class="slide-container">
-        <div class="slide active"><img src="calc.png" alt="Image 1"></div>
-        <div class="slide"><img src="map.jpg" alt="Image 2"></div>
-        <div class="slide"><img src="random-quote-machine.png" alt="Image 3"></div>
-        <div class="slide"><img src="tic-tac-toe.png" alt="Image 4"></div>
-        <div class="slide"><img src="tribute.jpg" alt="Image 5"></div>
-        <div class="slide"><img src="wiki.png" alt="Image 6"></div>
+    <div class="slide active">
+        <div class="image"><img src="calc.png" alt="Calculator App"></div>
+        <div class="title">Calculator App</div>
     </div>
-    <button class="prev" onclick="prevSlide()">Previous</button>
-    <button class="next" onclick="nextSlide()">Next</button>
+    <div class="slide">
+        <div class="image"><img src="map.jpg" alt="Map Application"></div>
+        <div class="title">Map Application</div>
+    </div>
+    <div class="slide">
+        <div class="image"><img src="random-quote-machine.png" alt="Random Quote Machine"></div>
+        <div class="title">Random Quote Machine</div>
+    </div>
+    <div class="slide">
+        <div class="image"><img src="tic-tac-toe.png" alt="Tic Tac Toe Game"></div>
+        <div class="title">Tic Tac Toe Game</div>
+    </div>
+    <div class="slide">
+        <div class="image"><img src="tribute.jpg" alt="Tribute Page"></div>
+        <div class="title">Tribute Page</div>
+    </div>
+    <div class="slide">
+        <div class="image"><img src="wiki.png" alt="Wiki Search App"></div>
+        <div class="title">Wiki Search App</div>
+    </div>
+
+    <div class="arrow left" onclick="prevSlide()"></div>
+    <div class="arrow right" onclick="nextSlide()"></div>
 </div>
 <script src="script.js"></script>
 

@@ -23,4 +23,4 @@ function prevSlide() {
 }
 
 // Automatically advance to the next slide every 3 seconds
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 8000);
